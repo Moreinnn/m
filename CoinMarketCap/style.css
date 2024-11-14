@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@600;700&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Khula';
+    margin: 0%;
+}
+
+a {
+    color: #222C5B;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header_logo {
+    padding: 3px 54px;
+}
+
+.header_nav {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header_list {
+    display: flex;
+    gap: 34px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 327px;
+    height: 106px;
+
+    font-size: 36px;
+    font-weight: 600;
+    
+    background: #B8C3EE;
+    border-radius: 50px;
+
+    transition: opacity 0.5s;
+
+    margin-top: 39px;
+    margin-right: 24px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #B8C3EE;
+    width: 381px;
+    height: 110px;
+
+    font-weight: 700;
+    font-size: 86px;
+    color: #212c5b;
+
+    margin-bottom: 32px;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
+
+body{
+    background-color: #fff;
+    font-family: 'Khula';
+    margin: 0%;
+}
+
+.welcome {
+    background-color: #ADB9F2;
+    margin-top: 56px;
+    width: 1920px;
+    height: 350px;
+}
+
+.welcome_whale {
+    width: 250px;
+
+}
+
+.text {
+    font-size: 48px;
+    font-weight: 700;
+}
